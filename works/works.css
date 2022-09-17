@@ -1,0 +1,185 @@
+body {
+    background-image: url("../img/newyorkview.jpeg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 100%;
+}
+
+/* Flex flex */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Header */
+
+header {
+    background-color: #4f2a09;
+    height: 8vh;
+    line-height: 8vh;
+    width: 100%;
+}
+
+header a {
+    text-decoration:none;
+    color: white;
+}
+
+#homepage {
+    margin-left: 2vh;
+    font-size: 4em;
+    font-style: italic;
+}
+
+#apropos {
+    margin-right: 2vh;
+    font-size: 2em;
+    font-weight: bold;
+    width: auto;
+}
+
+#apropos:hover {
+    color: black;
+}
+
+#exp {
+    margin-right: 2vh;
+    font-size: 2em;
+    font-weight: bold;
+    width: auto;
+}
+
+#exp:hover {
+    color: black;
+}
+
+#comp {
+    margin-right: 4vh;
+    font-size: 2em;
+    font-weight: bold;
+    width: auto;
+}
+
+#comp:hover {
+    color: black;
+}
+
+/* Corps */
+
+.scroller {
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+}
+
+.flex-container-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#sectionbackground {
+    border: solid;
+    border-color: black;
+    margin-top: 28vh;
+    margin-right: 2vh;
+    transform: translateY(-28%);
+    background-color: lightsalmon;
+    height: 60vh;
+    width: 50%;
+}
+
+section {
+    border: solid 2px;
+    border-color: black;
+    box-shadow: 5px 5px 5px black;
+    margin: 2vh 2vh 2vh 2vh;
+    background-color: rgb(239, 230, 230);
+    height: 56vh;
+    width: auto;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 3em;
+    border-bottom:1px solid black;
+}
+
+#borderbot {
+    border-bottom: 3px solid black;
+    margin-right: 2vh;
+    margin-left: 2vh;
+}
+
+section p {
+    text-align: center;
+    margin-right: 1vh;
+    margin-left: 1vh;
+}
+
+#textdesign {
+    font-size: 3em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+section img {
+    width: auto;
+    height: 20vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* Footer */
+
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #4f2a09;
+    height: 10vh;
+    line-height: 10vh;
+}
+
+footer h1 {
+    color: white;
+    margin-left: 4vh;
+    font-style: italic;
+    font-size: 3em;
+}
+
+#insta {
+    float: right;
+    margin: 2vh 4vh 0 0;
+    height: 5vh;
+    width: 5vh;
+}
+
+#twitter {
+    float: right;
+    margin: 2vh 2vh 0 0;
+    height: 5vh;
+    width: 5vh;
+}
+
+#linkedln {
+    float: right;
+    margin: 2vh 2vh 0 0;
+    height: 5vh;
+    width: 5vh;
+}
+
+nav {
+    float: right;
+    width: 100%;
+}
+
+footer a {
+    float: right;
+}
